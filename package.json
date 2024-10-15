@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-chat-app": "cd socket-io-chat && npm install",
+    "chat-app": "cd socket-io-chat && node index.js"
   },
   "keywords": [],
   "author": "",
